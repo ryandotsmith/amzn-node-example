@@ -5,4 +5,4 @@ server = http.createServer(function(req, resp) {
 	resp.end("Hello World\n");
 });
 
-server.listen("/home/deploy/nginx.socket", 128);
+server.listen("/home/deploy/var/socket/nginx.socket", 128);
